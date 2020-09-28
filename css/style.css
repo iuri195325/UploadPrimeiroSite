@@ -1,0 +1,143 @@
+*{
+
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+@font-face{
+    font-family: "source-sans-pro";
+    src: url(../fonts/source-sans-pro/SourceSansPro-Bold.otf);
+    font-weight: bold;
+}
+
+body{
+    font-family: "source-sans-pro";
+}
+.cabeçalho{
+    background-color: #fff;
+    padding: 15px;
+}
+
+.logo{
+    background-image: url("../img/todas-as-img/img/logotipo-preto.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 120px;
+    height: 53px;
+    /*Apagar um texto html e deixar somente o css*/
+    text-indent: -9999px;
+    margin: 0;
+}
+
+.logo--branca{
+    background-image: url("../img/todas-as-img/img/logotipo-branco.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.menu-principal{
+    background-color: #fff;
+}
+
+.menu-principal-btn{
+
+    background-image: url(../img/todas-as-img/img/menuprincipal-btn-bg.png);
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-color: #c4c4c4;
+    border-style: solid;
+    border-radius: 5px;
+    background-position: 5px 5px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    
+}
+
+.menu-principal__btn-fechado{
+    background-image: url(../img/todas-as-img/img/menuprincipal-btn-bg.png);
+    background-position: -48px 7px;
+    cursor: pointer;
+}
+
+.menu-principal__lista{
+    padding: 0;
+    list-style: none;
+}
+
+
+.menu-principal__item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #343434;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 18px;
+}
+
+.menu-principal__item--atual{
+    color: red;
+    
+}
+
+.rodape{
+    background-color: #000;
+    background-image: url("../img/todas-as-img/img/rodape-bg.jpg");
+    background-size: cover;
+    
+}
+
+.linha-1{
+    color: #fff;
+    padding: 15%;
+}
+
+.linha-2{
+    color: #fff;
+    padding: 15%;
+   
+}
+
+.rodape-links{
+
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+    font-size: 20px;
+}
+
+.rodape-links__lista{
+    list-style: none;
+    padding: 0px;
+    
+    
+}
+.rodape .logo--branca{
+    margin-bottom: 25px;
+}
+
+.rodape-links__lista-1{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    
+}
+.rodape-links__lista-1::before{
+    content: ">";
+    margin-right: 8px;
+    color: #f44242;
+}
+.rodape__espasso{
+    margin-bottom: 40px;
+    display: block;
+}
